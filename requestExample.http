@@ -1,0 +1,20 @@
+### Registrando usuário
+POST http://localhost:3002/register
+content-type: application/json
+
+{
+    "username": "Testing 2",
+    "password": "testing123456",
+    "email": "testing2testing@gmail.com",
+    "body": "Testing NPC"
+}
+
+### Autenticando usuário
+POST http://localhost:3002/login
+content-type: application/json
+
+{
+    "username": "miguel",
+    "password": "123465",
+    "email": "siendomigueldev@gmail.com"
+}
